@@ -1,6 +1,6 @@
 {
   "name": "prerender-postgre-cache",
-  "version": "0.0.22,
+  "version": "0.0.2",
   "description": "Prerender plugin for PostgreSQL caching",
   "main": "index.js",
   "scripts": {
