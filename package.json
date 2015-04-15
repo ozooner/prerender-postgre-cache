@@ -8,20 +8,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jonathanbennett/prerender-redis-cache.git"
+    "url": "git://github.com/fadeit/prerender-postgre-cache.git"
   },
   "keywords": [
     "prerender",
-    "redis",
+    "postgresql",
     "cache"
   ],
   "author": "Sander Sink",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jonathanbennett/prerender-redis-cache/issues"
+    "url": "https://github.com/fadeit/prerender-postgre-cache/issues"
   },
-  "homepage": "https://github.com/jonathanbennett/prerender-redis-cache",
+  "homepage": "https://github.com/fadeit/prerender-postgre-cache",
   "dependencies": {
-    "redis": "~0.10.1"
+    "pg": "~4.3.0",
+    "zlib": "~1.0.5"
   }
 } 
