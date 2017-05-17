@@ -3,7 +3,7 @@
 PostgreSQL storage for prerendered HTML. 
 Automatically creates a table 'pages' and stores the processed HTML as gzipped bytea.
 
-#Why is it different from other caches?
+## Why is it different from other caches?
 
  1. Good old relational database.
  2. uses GZIP compression to save storage (it matters if you have 50k pages) .
@@ -13,7 +13,7 @@ Automatically creates a table 'pages' and stores the processed HTML as gzipped b
     
     
 
-#Installation:
+## Installation:
 
     npm install prerender-postgre-cache
 
@@ -26,11 +26,11 @@ Edit server.js:
     server.start();
     
 
-===================
+------------------
 <br/>
 <a href="http:fadeit.dk"><img src="http://fadeit.dk/src/assets/img/brand/fadeit_logo_full.svg" alt="The fadeit logo" style="width:200px;"/></a><br/><br/>
 
-####About fadeit
+#### About fadeit
 We build awesome software, web and mobile applications.
 See more at [fadeit.dk](http://fadeit.dk)
 
